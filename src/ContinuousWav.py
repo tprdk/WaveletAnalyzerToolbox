@@ -7,9 +7,7 @@ import librosa
 import numpy as np
 import pywt
 from src import Features, Database
-from scipy import signal
 from matplotlib import pyplot as plt
-import scaleogram as sc
 
 
 class ContinuousWT(QMainWindow):

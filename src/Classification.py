@@ -2,7 +2,6 @@ from PyQt5 import QtGui
 from PyQt5.QtWidgets import *
 from PyQt5.uic import loadUi
 from src import ClassifyMusic, Features, Database
-import pandas as pd
 from tabulate import tabulate
 
 class ClassificationPage(QMainWindow):

@@ -1,10 +1,5 @@
-# ------------------------------------------------------
-# -------------------- mplwidget.py --------------------
-# ------------------------------------------------------
 from PyQt5.QtWidgets import *
-
 from matplotlib.backends.backend_qt5agg import FigureCanvas
-
 from matplotlib.figure import Figure
 
 class MplWidget(QWidget):

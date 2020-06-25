@@ -6,7 +6,7 @@ from matplotlib.backends.backend_qt5agg import (NavigationToolbar2QT as Navigati
 import librosa
 import numpy as np
 import pywt
-from src import ClassifyMusic, Features, Database
+from src import Features, Database
 
 
 class DiscreteWT(QMainWindow):
